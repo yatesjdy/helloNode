@@ -1,0 +1,58 @@
+doctype default
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="title", content=appTitle)
+    meta(name="description", content=appDescription)
+    meta(name="author", content="")
+    meta(name="google-site-verification" content="D8hQpp46320VxiC9Yt0ps472dHCBJI-WxlXt5karVNA")
+    title=appTitle
+    
+    // JQUERY
+    //
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")
+    
+    /////////////
+    // BOOTSTRAP CSS
+    //
+    
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet")
+      
+    ////////
+    // BOOTSTRAP JS
+
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+           
+    
+  body
+    block navigation
+      div(class="container")
+        div(class="dropdown")
+          ul(class="nav nav-pills pull-right")
+                
+          h3(class="text-muted")
+            ul(class="nav nav-pills pull-left")
+              li(class="")
+                a(href="/")
+                  img(src="../static/images/hand-o-peace.png" style="width:50px;height:50px;" )
+                  small &nbsp Node Hello
+
+    block subnav
+
+    block content
+    
+    block footer
+      if showFooter
+        div(class="container-fluid")           
+                
+        div(class="")
+          small
+            span(class="pull-right") &copy; Dojo 2018 &nbsp
+            
+    block bodyscript
+    
+      script.
+        console.log("helloNodeLayout.pug: qe loaded");
+      
+          
