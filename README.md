@@ -26,7 +26,8 @@ This project is based on node.js and a minimal number of node modules including:
            PUG used to be called JADE, which can lead to some confusion when you search for info on the web.
            This project uses PUG to describe a simple home page on the website that your server is delivering to the client.
            Learning PUG (or any templating engine) is key to being able to build more sophisticated content dynamically.
-           Here's another useful reference: https://codeburst.io/getting-started-with-pug-template-engine-e49cfa291e33
+           Here's another useful reference: https://codeburst.io/getting-started-with-pug-template-engine-e49cfa291e33.
+           And this one: https://expressjs.com/en/guide/using-template-engines.html.
    
 
 INSTALLATION
